@@ -30,7 +30,7 @@ void setup() {
   delay(2000);
   Serial.println("Reading From the Sensors ... \n");
   delay(3000);
-  Serial.println("Enter number 6 to get to the MENU");
+  Serial.println("Enter number 7 to get to the MENU");
   
   pinMode(pump0, OUTPUT);
   pinMode(pump1, OUTPUT);
@@ -138,7 +138,7 @@ void loop() {
 
                           
         } while (input != '0');
-        Serial.println("Enter number 6 to get to the MENU");
+        Serial.println("Enter number 7 to get to the MENU");
         break;
         
         case '2':
@@ -223,7 +223,8 @@ void loop() {
                       Serial.print("Moisture 3 : ");
                       Serial.print(output_value);
                       Serial.println("% \n");
-                          
+
+                      Serial.println("Enter number 7 to get to the MENU");
         
         break;
     
